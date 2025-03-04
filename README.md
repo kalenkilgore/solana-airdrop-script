@@ -1,6 +1,6 @@
-# Solana Wallet Balance Checker and Transfer Script
+# Solana Airdrop Script
 
-Welcome to the Solana Wallet Balance Checker and Transfer Script! This Python script helps you check the balance of SOL (Solana’s native cryptocurrency) and JUP tokens in multiple Solana wallets, and transfer them to a target wallet if certain conditions are met. It uses the Solana blockchain and the `solders` library to interact with the network. This version can process all `keypair_*.json` files in the same folder!
+Welcome to the Solana Airdrop Script. This Python script helps you check the balance of SOL (Solana’s native cryptocurrency) and JUP tokens in multiple Solana wallets, and transfer them to a target wallet if certain conditions are met. It uses the Solana blockchain and the `solders` library to interact with the network. This version can process all `keypair_*.json` files in the same folder!
 
 **Note:** This script is for educational purposes only. Be careful with private keys and real money—do not share your private keys with anyone!
 
@@ -84,17 +84,8 @@ python3 -m pip install solders solana
 ### 7. Create Keypair JSON Files
 The script needs your wallet’s private keys in files named `keypair_*.json` (e.g., `keypair_60.json`, `keypair_61.json`).
 
-For each wallet, create a file:
-```bash
-nano keypair_60.json
-```
-Add this content (replace `YOUR_BASE64_PRIVATE_KEY` with your actual private key):
-```json
-{
-  "private_key": "YOUR_BASE64_PRIVATE_KEY"
-}
-```
-Save the file and repeat for other wallets (`keypair_61.json`, `keypair_62.json`, etc.).
+To generate the keypair files run the script in this [repo](https://github.com/kalenkilgore/solana-wallet-address-export)
+
 
 ### 8. Make the Script Executable
 ```bash
