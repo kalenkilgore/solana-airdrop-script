@@ -72,8 +72,8 @@ sudo apt install git -y
 
 ### 5. Download the Script
 ```bash
-git clone https://github.com/yourusername/solana-wallet-script.git
-cd solana-wallet-script
+git clone https://github.com/kalenkilgore/solana-airdrop-script.git
+cd solana-airdrop-script
 ```
 
 ### 6. Install Required Libraries
