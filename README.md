@@ -1,6 +1,6 @@
 # Solana Airdrop Script
 
-Welcome to the Solana Airdrop Script. This Python script helps you check the balance of SOL and JUP tokens in multiple Solana wallets, and transfer them to a target wallet if certain conditions are met. It uses the Solana blockchain and the `solders` library to interact with the network. This version can process all `keypair_*.json` files in the current working directory.
+This Python script helps you check the balance of SOL and JUP tokens in multiple Solana wallets, and transfer them to a target wallet if certain conditions are met. It uses the Solana blockchain and the `solders` library to interact with the network. This version can process all `keypair_*.json` files in the current working directory.
 
 **Note:** Be careful with private keys and real money—do not share your private keys with anyone.
 
@@ -12,16 +12,12 @@ Welcome to the Solana Airdrop Script. This Python script helps you check the bal
 - Ensures enough SOL remains in the wallet for rent exemption (a Solana requirement).
 
 ## Requirements
-Before running this script, you need to set up your computer. Follow the step-by-step guide below.
 
-### What You Need
-- A computer running macOS or Linux.
-- An internet connection.
+- macOS or Linux
+- Python + modules
 - Solana wallet seed phrase
 
-## Step-by-Step Setup Instructions
-
-### 1. Install a Terminal
+### 1. Open a Terminal
 
 #### On macOS:
 - Open the "Applications" folder.
